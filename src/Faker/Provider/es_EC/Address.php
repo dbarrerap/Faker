@@ -2,10 +2,10 @@
 
 namespace Faker\Provider\es_EC;
 
-class Address extends \Faker\Provider\es_EC\Address
+class Address extends \Faker\Provider\Address
 {
     protected static $cityPrefix = array('San', 'Puerto', 'Gral.', 'Don');
-    protected static $citySuffix = array('Alta', 'Baja', 'Norte', 'Este', ' Sur', ' Oeste');
+    protected static $citySuffix = array('');
     protected static $buildingNumber = array('####', '###', '##', '#');
     protected static $streetPrefix = array('Ave.', 'Cl.');
     protected static $streetSuffix = array('');
